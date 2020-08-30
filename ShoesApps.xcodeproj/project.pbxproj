@@ -13,6 +13,9 @@
 		A0E2D7AC24FBF67500839A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E2D7AB24FBF67500839A3F /* Assets.xcassets */; };
 		A0E2D7AF24FBF67500839A3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E2D7AE24FBF67500839A3F /* Preview Assets.xcassets */; };
 		A0E2D7B224FBF67500839A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E2D7B024FBF67500839A3F /* LaunchScreen.storyboard */; };
+		A0E2D7BB24FBF69700839A3F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D7BA24FBF69700839A3F /* Color+Extension.swift */; };
+		A0E2D7BE24FBFF2000839A3F /* ShoesListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D7BD24FBFF2000839A3F /* ShoesListCard.swift */; };
+		A0E2D7C024FC081100839A3F /* ShoesListCardHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D7BF24FC081100839A3F /* ShoesListCardHorizontal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A0E2D7AE24FBF67500839A3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0E2D7B124FBF67500839A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E2D7B324FBF67500839A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E2D7BA24FBF69700839A3F /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A0E2D7BD24FBFF2000839A3F /* ShoesListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesListCard.swift; sourceTree = "<group>"; };
+		A0E2D7BF24FC081100839A3F /* ShoesListCardHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesListCardHorizontal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		A0E2D7A424FBF67300839A3F /* ShoesApps */ = {
 			isa = PBXGroup;
 			children = (
+				A0E2D7BC24FBFF0800839A3F /* View */,
+				A0E2D7B924FBF67B00839A3F /* Extensions */,
 				A0E2D7A524FBF67300839A3F /* AppDelegate.swift */,
 				A0E2D7A724FBF67300839A3F /* SceneDelegate.swift */,
 				A0E2D7A924FBF67300839A3F /* ContentView.swift */,
@@ -73,6 +81,23 @@
 				A0E2D7AE24FBF67500839A3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0E2D7B924FBF67B00839A3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0E2D7BA24FBF69700839A3F /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0E2D7BC24FBFF0800839A3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0E2D7BD24FBFF2000839A3F /* ShoesListCard.swift */,
+				A0E2D7BF24FC081100839A3F /* ShoesListCardHorizontal.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E2D7C024FC081100839A3F /* ShoesListCardHorizontal.swift in Sources */,
 				A0E2D7A624FBF67300839A3F /* AppDelegate.swift in Sources */,
 				A0E2D7A824FBF67300839A3F /* SceneDelegate.swift in Sources */,
 				A0E2D7AA24FBF67300839A3F /* ContentView.swift in Sources */,
+				A0E2D7BE24FBFF2000839A3F /* ShoesListCard.swift in Sources */,
+				A0E2D7BB24FBF69700839A3F /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
